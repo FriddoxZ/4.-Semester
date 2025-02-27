@@ -1,0 +1,162 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+/* CSS for header */
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 300px;
+    font-size: 18px;
+    background-color: #1F2937;
+
+}
+.header-logo {
+    flex-grow: 1;
+    font-size: 24px;
+    color: #F9FAf8;
+
+/* CSS for main page */
+}
+.main-content {
+    display: flex;
+    align-items: center;
+    padding: 75px 300px;
+
+    background-color: #1F2937;
+}
+.main-content h1{
+    font-size: 48px;
+    color: #F9FAf8;
+    font-weight: 800;
+
+}
+.main-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.main-content button{
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding : 8px 28px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+}
+.front-image {
+    width: 700px;
+    height: 250px;
+    padding-left: 150px;
+    
+}
+
+/* CSS for sub content */
+.sub-content {
+    display: flex;
+    text-align: center;
+    padding: 25px;
+}
+.sub-content .images-and-text{
+    display: flex;
+    padding: 25px 500px;
+    padding-bottom: 75px;
+    gap: 15px;
+}
+.sub-content h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.sub-content img {
+    width: 150px;
+    height: auto;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* CSS for quote content */
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 500px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote-text .quote-author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.quote-text p{
+    margin: 0px;
+}
+/* CSS for call to action*/
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 100px 500px;
+    border-radius: 10px;
+    color: #E5E7EB
+}
+.call-to-action div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 100px;
+
+}
+.call-to-action button{
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding : 5px 25px;
+    border-radius: 10px;
+    border:2px solid #E5E7EB;
+    font-weight: bolder;
+}
+.call-to-action p{
+    margin: 0px;
+}
+.call-to-action h2{
+    margin: 0px;
+}
+
+
+/* CSS for footer content */
+.footer-text {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* CSS for other stuff*/
+
+body {
+    font-family: Roboto;
+    background-color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+button:hover {
+    cursor: pointer;
+}
+
+
